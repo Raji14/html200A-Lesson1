@@ -1,0 +1,156 @@
+body {
+  margin: auto;
+  background-color: #333333;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+article.contentwrapper {
+  width: 65%;
+  margin: auto;
+}
+
+h2.nametitle {
+  font-size: 2em;
+  color: #fff;
+  padding: 0;
+  margin-top: .50em;
+  margin-bottom: .50em;
+  float: left;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+section.homemain {
+  border: 1px solid #85827d;
+  height: auto;
+  margin: 0;
+  background-color: #fff;
+}
+
+section.slogan {
+  background-image: url("../images/pexels-photo-169573.jpg");
+  background-repeat: no-repeat;
+  height: 530px;
+  position: relative;
+}
+
+section.maincontent {
+  padding: 1em 1em 0 1em;
+  background-color: #fff;
+}
+
+.sectioncontainer {
+  display: flex;
+  background-color: #616161;
+  border-top: 1px solid #85827d;
+  /*  border-bottom: 1px solid #85827d;*/
+}
+
+.sectionform {
+  padding: 1em;
+  margin-left: 2em;
+}
+
+h3 {
+  color: #000;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.sectionform h2 {
+  color: #fff;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+label {
+  display: block;
+  color: #fff;
+}
+
+legend {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.checkboxlabel {
+  float: left;
+  padding: 2px 1em 0 0;
+}
+
+input {
+  margin-bottom: .50em;
+  box-sizing: border-box;
+}
+
+.inputwidth {
+  width: 100%;
+}
+
+input[type="radio"],
+input.radio {
+  float: left;
+  clear: none;
+  margin: 2px 1px 1px 2px;
+}
+
+input[type="submit"] {
+  margin: 1em auto 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  display: block;
+}
+
+textarea {
+  max-width: inherit;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  display: flex;
+  padding: 1em;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #000;
+  width: 100%;
+}
+
+footer section {
+  width: 50%;
+}
+
+.labelclear {
+  clear: both;
+}
+
+.backtotop {
+  text-align: right;
+  padding-right: 2em;
+}
+
+.backtotop a {
+  text-decoration: none;
+}
+
+.backtotop a:hover {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
